@@ -12,17 +12,33 @@
     background-color: rgb(194, 209, 229);
 }
 
+/* Header band styling */
 .header {
-    width: 100vw;
-    height: 20vh;
-    background-color: #DDE6F1;
-    margin-bottom: 20px;
-    font-size: 30px; /* Change the font size */
-    font-family: Arial , sans-serif; /* Change the font family */
-    color: white; /* Change the text color */
-    text-align: center; /* Center the text horizontally */
-    line-height: 20vh; /* Vertically center the text within the header */
+    background-color: #004aad;       /* rich blue background */
+    color: #ffffff;                  /* white text for contrast */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  /* space between text and logo */
+    padding: 15px 30px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Title text */
+.header-title {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffdc00;                  /* vibrant yellow for strong contrast */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Logo styling */
+.header-logo {
+    height: 70px;                    /* adjust size */
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.7)); /* makes logo glow */
+}
+
 
 /* Style the input field */
 .inputfield {
@@ -37,5 +53,6 @@
     text-align: center;
     color: transparent;
 }
+
 
 
