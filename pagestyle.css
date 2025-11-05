@@ -14,7 +14,7 @@
 
 /* Header band styling */
 .header {
-    background-color: #004aad;       /* rich blue background */
+    background-color: #1E569F;       /* rich blue background */
     color: #ffffff;                  /* white text for contrast */
     display: flex;
     align-items: center;
@@ -53,6 +53,7 @@
     text-align: center;
     color: transparent;
 }
+
 
 
 
