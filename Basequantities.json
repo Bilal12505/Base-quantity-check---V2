@@ -1,0 +1,125 @@
+{
+  "Wall": [
+    { "key": "BaseQuantities:Length", "displayName": "length" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
+    { "key": "BaseQuantities:NetSideArea", "displayName": "net side area" },
+    { "key": "BaseQuantities:GrossFootprintArea", "displayName": "gross footprint area" },
+    { "key": "BaseQuantities:NetFootprintArea", "displayName": "net footprint area" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
+    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" },
+    { "key": "BaseQuantities:GrossSideArea", "displayName": "gross side area" }
+  ],
+
+  "Beam": [
+    { "key": "BaseQuantities:Length", "displayName": "length" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:CrossSectionArea", "displayName": "cross section area" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
+    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" }
+  ],
+
+  "Slab": [
+    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
+    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
+    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
+    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" }
+  ],
+
+  "CurtainWall": [
+    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
+    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
+    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" }
+  ],
+
+  "Covering": [
+    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
+    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
+    { "key": "BaseQuantities:Thickness", "displayName": "thickness" },
+    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" }
+  ],
+
+  "Roof": [
+    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
+    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
+    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" },
+    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" }
+  ],
+
+  "Window": [
+    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
+    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" }
+  ],
+
+  "Door": [
+    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
+    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" }
+  ],
+
+  "Column": [
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:CrossSectionArea", "displayName": "cross section area" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
+    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" }
+  ],
+
+  "Plate": [
+    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
+    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
+    { "key": "BaseQuantities:Thickness", "displayName": "thickness" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+  ],
+
+  "StairFlight": [
+    { "key": "BaseQuantities:Length", "displayName": "length" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+  ],
+
+  "Stair": [
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+  ],
+
+  "Ramp": [
+    { "key": "BaseQuantities:Length", "displayName": "length" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+  ],
+
+  "RampFlight": [
+    { "key": "BaseQuantities:Length", "displayName": "length" },
+    { "key": "BaseQuantities:Height", "displayName": "height" },
+    { "key": "BaseQuantities:Width", "displayName": "width" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+  ],
+
+  "Railing": [
+    { "key": "BaseQuantities:Length", "displayName": "length" },
+    { "key": "BaseQuantities:Height", "displayName": "height" }
+  ],
+
+  "Member": [
+    { "key": "BaseQuantities:Length", "displayName": "length" },
+    { "key": "BaseQuantities:CrossSectionArea", "displayName": "cross section area" },
+    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+  ]
+}
