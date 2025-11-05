@@ -50,9 +50,9 @@ class Header {
         const logo = document.createElement("img");
         logo.src = "logo.png";        // Make sure file is in the same folder
         logo.alt = "Company Logo";
-        logo.style.height = "50px";   // adjust size
+        logo.style.height = "100px";   // adjust size
         logo.style.verticalAlign = "middle";
-        logo.style.marginLeft = "50px"; // space between text and logo
+        logo.style.marginLeft = "250px"; // space between text and logo
 
         // Append logo after text
         header.appendChild(logo);
@@ -162,6 +162,7 @@ async function checkBaseQuantitiesDynamic(ifcPartial, properties) {
 
     return "issuesFound";
 }
+
 
 
 
