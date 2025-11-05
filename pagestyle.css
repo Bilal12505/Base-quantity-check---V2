@@ -1,5 +1,5 @@
 .newexecutebutton {
-    background-color: rgb(60, 96, 196);
+    background-color: rgb(30, 86, 159);
     color: white;
     width: 300px;
     margin-top: 40px;
@@ -9,13 +9,13 @@
 }
 
 .newexecutebutton:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(194, 209, 229);
 }
 
 .header {
     width: 100vw;
     height: 20vh;
-    background-color: #2f68b3;
+    background-color: #1E569F;
     margin-bottom: 20px;
     font-size: 30px; /* Change the font size */
     font-family: Arial , sans-serif; /* Change the font family */
@@ -37,3 +37,4 @@
     text-align: center;
     color: transparent;
 }
+
