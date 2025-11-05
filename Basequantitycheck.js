@@ -43,7 +43,7 @@ class Header {
         header.className = "header";
 
         // Create a text node for the header text
-        const text = document.createTextNode("Model Base Quantities Check");
+        const text = document.createTextNode("Base Quantities Checker");
         header.appendChild(text);
 
         // Create logo image
@@ -52,7 +52,7 @@ class Header {
         logo.alt = "Company Logo";
         logo.style.height = "50px";   // adjust size
         logo.style.verticalAlign = "middle";
-        logo.style.marginLeft = "10px"; // space between text and logo
+        logo.style.marginLeft = "50px"; // space between text and logo
 
         // Append logo after text
         header.appendChild(logo);
@@ -162,5 +162,6 @@ async function checkBaseQuantitiesDynamic(ifcPartial, properties) {
 
     return "issuesFound";
 }
+
 
 
