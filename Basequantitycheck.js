@@ -52,7 +52,7 @@ class Header {
         logo.alt = "Company Logo";
         logo.style.height = "100px";   // adjust size
         logo.style.verticalAlign = "middle";
-        logo.style.marginLeft = "200px"; // space between text and logo
+        logo.style.marginLeft = "400px"; // space between text and logo
 
         // Append logo after text
         header.appendChild(logo);
@@ -162,6 +162,7 @@ async function checkBaseQuantitiesDynamic(ifcPartial, properties) {
 
     return "issuesFound";
 }
+
 
 
 
