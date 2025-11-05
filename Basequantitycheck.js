@@ -42,25 +42,24 @@ class Header {
         const header = document.createElement("header");
         header.className = "header";
 
-        // Create a text node for the header text
-        const text = document.createTextNode("Base Quantities Checker");
+        // Header title
+        const text = document.createElement("span");
+        text.textContent = "Base Quantities Checker";
+        text.className = "header-title";
         header.appendChild(text);
 
-        // Create logo image
+        // Logo
         const logo = document.createElement("img");
-        logo.src = "logo.png";        // Make sure file is in the same folder
+        logo.src = "logo.png";  // make sure it's in same folder as index.html
         logo.alt = "Company Logo";
-        logo.style.height = "100px";   // adjust size
-        logo.style.verticalAlign = "middle";
-        logo.style.marginLeft = "400px"; // space between text and logo
-
-        // Append logo after text
+        logo.className = "header-logo";
         header.appendChild(logo);
 
-        // Append header to page
-        document.body.prepend(header); // or append(header) if you prefer
+        // Add header to page
+        document.body.prepend(header);
     }
 }
+
 
 
 // ================================================
@@ -162,6 +161,7 @@ async function checkBaseQuantitiesDynamic(ifcPartial, properties) {
 
     return "issuesFound";
 }
+
 
 
 
