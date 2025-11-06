@@ -107,13 +107,20 @@ async function checkBaseQuantitiesDynamic(ifcPartial, properties) {
     const allElements = await desiteAPI.getAllElements("geometry");
     const filteredElements = [];
 
-    // Filter elements by partial IFC type (e.g., "Wall" matches "IfcWallStandardCase")
     for (const element of allElements) {
-        const type = await desiteAPI.getPropertyValue(element, "ifcType", "xs:string");
-        if (type && type.toLowerCase().includes(ifcPartial.toLowerCase())) {
-            filteredElements.push(element);
-        }
+    // Get both properties
+    const type = await desiteAPI.getPropertyValue(element, "ifcType", "xs:string");
+    const typeObject = await desiteAPI.getPropertyValue(element, "ifcTypeObject", "xs:string");
+
+    // Convert to lowercase for comparison
+    const typeLower = type ? type.toLowerCase() : "";
+    const typeObjectLower = typeObject ? typeObject.toLowerCase() : "";
+
+    // Check if either matches the target
+    if (typeLower.includes(ifcPartial.toLowerCase()) || typeObjectLower.includes(ifcPartial.toLowerCase())) {
+        filteredElements.push(element);
     }
+}
 
     if (filteredElements.length === 0) {
         return "noElements";
@@ -161,6 +168,7 @@ async function checkBaseQuantitiesDynamic(ifcPartial, properties) {
 
     return "issuesFound";
 }
+
 
 
 
