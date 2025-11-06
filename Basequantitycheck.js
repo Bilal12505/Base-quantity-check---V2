@@ -132,26 +132,33 @@ async function checkBaseQuantitiesDynamic(ifcPartial, properties) {
     const elementIdsBySet = {};
 
     // Check all elements
-    for (const element of filteredElements) {
-        const id = await desiteAPI.idListToStr(element);
+for (const element of filteredElements) {
+    const id = await desiteAPI.idListToStr(element);
 
-        for (const prop of properties) {
-            let value = await desiteAPI.getPropertyValue(element, prop.key, "xs:double");
-            if (value === null || value === undefined) value = undefined;
+    for (const prop of properties) {
+        let value;
+        // Try all possible keys until a value is found
+        for (const key of prop.keys) {
+            value = await desiteAPI.getPropertyValue(element, key, "xs:double");
+            if (value !== null && value !== undefined) break;
+        }
 
-            let status = null;
-            if (value === 0) status = "zero";
-            else if (value < 0) status = "negative";
-            else if (value === undefined) status = "undefined";
+        if (value === null || value === undefined) value = undefined;
 
-            if (status) {
-                const setName = `${ifcPartial} with ${status} ${prop.displayName}`;
-                if (!elementIdsBySet[setName]) elementIdsBySet[setName] = [];
-                elementIdsBySet[setName].push(id);
-                selSetsWithElements.add(setName);
-            }
+        let status = null;
+        if (value === 0) status = "zero";
+        else if (value < 0) status = "negative";
+        else if (value === undefined) status = "undefined";
+
+        if (status) {
+            const setName = `${ifcPartial} with ${status} ${prop.displayName}`;
+            if (!elementIdsBySet[setName]) elementIdsBySet[setName] = [];
+            elementIdsBySet[setName].push(id);
+            selSetsWithElements.add(setName);
         }
     }
+}
+
 
     // If all are fine
     if (selSetsWithElements.size === 0) {
@@ -168,6 +175,7 @@ async function checkBaseQuantitiesDynamic(ifcPartial, properties) {
 
     return "issuesFound";
 }
+
 
 
 
