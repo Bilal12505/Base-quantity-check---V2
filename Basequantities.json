@@ -1,125 +1,142 @@
 {
   "Wall": [
-    { "key": "BaseQuantities:Length", "displayName": "length" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
-    { "key": "BaseQuantities:NetSideArea", "displayName": "net side area" },
-    { "key": "BaseQuantities:GrossFootprintArea", "displayName": "gross footprint area" },
-    { "key": "BaseQuantities:NetFootprintArea", "displayName": "net footprint area" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
-    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" },
-    { "key": "BaseQuantities:GrossSideArea", "displayName": "gross side area" }
+    { "keys": ["BaseQuantities:Length", "Qto_WallBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:Height", "Qto_WallBaseQuantities:Height"], "displayName": "height" },
+    { "keys": ["BaseQuantities:Width", "Qto_WallBaseQuantities:Width"], "displayName": "width" },
+    { "keys": ["BaseQuantities:NetSideArea", "Qto_WallBaseQuantities:NetSideArea"], "displayName": "net side area" },
+    { "keys": ["BaseQuantities:GrossFootprintArea", "Qto_WallBaseQuantities:GrossFootprintArea"], "displayName": "gross footprint area" },
+    { "keys": ["BaseQuantities:NetFootprintArea", "Qto_WallBaseQuantities:NetFootprintArea"], "displayName": "net footprint area" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_WallBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_WallBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossSideArea", "Qto_WallBaseQuantities:GrossSideArea"], "displayName": "gross side area" },
+    { "keys": ["BaseQuantities:GrossWeight", "Qto_WallBaseQuantities:GrossWeight"], "displayName": "gross weight" },
+    { "keys": ["BaseQuantities:NetWeight", "Qto_WallBaseQuantities:NetWeight"], "displayName": "net weight" }
   ],
 
   "Beam": [
-    { "key": "BaseQuantities:Length", "displayName": "length" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:CrossSectionArea", "displayName": "cross section area" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
-    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" }
+    { "keys": ["BaseQuantities:Length", "Qto_BeamBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:CrossSectionArea", "Qto_BeamBaseQuantities:CrossSectionArea"], "displayName": "cross section area" },
+    { "keys": ["BaseQuantities:OuterSurfaceArea", "Qto_BeamBaseQuantities:OuterSurfaceArea"], "displayName": "outer surface area" },
+    { "keys": ["BaseQuantities:GrossSurfaceArea", "Qto_BeamBaseQuantities:GrossSurfaceArea"], "displayName": "gross surface area" },
+    { "keys": ["BaseQuantities:NetSurfaceArea", "Qto_BeamBaseQuantities:NetSurfaceArea"], "displayName": "net surface area" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_BeamBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_BeamBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossWeight", "Qto_BeamBaseQuantities:GrossWeight"], "displayName": "gross weight" },
+    { "keys": ["BaseQuantities:NetWeight", "Qto_BeamBaseQuantities:NetWeight"], "displayName": "net weight" }
   ],
 
   "Slab": [
-    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
-    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
-    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
-    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" }
+    { "keys": ["BaseQuantities:GrossArea", "Qto_SlabBaseQuantities:GrossArea"], "displayName": "gross area" },
+    { "keys": ["BaseQuantities:NetArea", "Qto_SlabBaseQuantities:NetArea"], "displayName": "net area" },
+    { "keys": ["BaseQuantities:Perimeter", "Qto_SlabBaseQuantities:Perimeter"], "displayName": "perimeter" },
+    { "keys": ["BaseQuantities:Width", "Qto_SlabBaseQuantities:Width"], "displayName": "width" },
+    { "keys": ["BaseQuantities:Depth", "Qto_SlabBaseQuantities:Depth"], "displayName": "depth" },
+    { "keys": ["BaseQuantities:Length", "Qto_SlabBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_SlabBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_SlabBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossWeight", "Qto_SlabBaseQuantities:GrossWeight"], "displayName": "gross weight" },
+    { "keys": ["BaseQuantities:NetWeight", "Qto_SlabBaseQuantities:NetWeight"], "displayName": "net weight" }
   ],
 
   "CurtainWall": [
-    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
-    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
-    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" }
+    { "keys": ["BaseQuantities:GrossSideArea", "Qto_CurtainWallBaseQuantities:GrossSideArea"], "displayName": "gross side area" },
+    { "keys": ["BaseQuantities:NetSideArea", "Qto_CurtainWallBaseQuantities:NetSideArea"], "displayName": "net side area" },
+    { "keys": ["BaseQuantities:Width", "Qto_CurtainWallBaseQuantities:Width"], "displayName": "width" },
+    { "keys": ["BaseQuantities:Height", "Qto_CurtainWallBaseQuantities:Height"], "displayName": "height" },
+    { "keys": ["BaseQuantities:Length", "Qto_CurtainWallBaseQuantities:Length"], "displayName": "length" }
   ],
 
   "Covering": [
-    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
-    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
-    { "key": "BaseQuantities:Thickness", "displayName": "thickness" },
-    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" }
+    { "keys": ["BaseQuantities:GrossArea", "Qto_CoveringBaseQuantities:GrossArea"], "displayName": "gross area" },
+    { "keys": ["BaseQuantities:NetArea", "Qto_CoveringBaseQuantities:NetArea"], "displayName": "net area" },
+    { "keys": ["BaseQuantities:Width", "Qto_CoveringBaseQuantities:Width"], "displayName": "width" }
   ],
 
   "Roof": [
-    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
-    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
-    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" },
-    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" }
+    { "keys": ["BaseQuantities:GrossArea", "Qto_RoofBaseQuantities:GrossArea"], "displayName": "gross area" },
+    { "keys": ["BaseQuantities:NetArea", "Qto_RoofBaseQuantities:NetArea"], "displayName": "net area" },
+    { "keys": ["BaseQuantities:ProjectedArea", "Qto_RoofBaseQuantities:ProjectedArea"], "displayName": "projected area" }
   ],
 
   "Window": [
-    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
-    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" }
+    { "keys": ["BaseQuantities:Area", "Qto_WindowBaseQuantities:Area"], "displayName": "area" },
+    { "keys": ["BaseQuantities:Width", "Qto_WindowBaseQuantities:Width"], "displayName": "width" },
+    { "keys": ["BaseQuantities:Height", "Qto_WindowBaseQuantities:Height"], "displayName": "height" },
+    { "keys": ["BaseQuantities:Perimeter", "Qto_WindowBaseQuantities:Perimeter"], "displayName": "perimeter" }
   ],
 
   "Door": [
-    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
-    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:Perimeter", "displayName": "perimeter" }
+    { "keys": ["BaseQuantities:Area", "Qto_DoorBaseQuantities:Area"], "displayName": "area" },
+    { "keys": ["BaseQuantities:Width", "Qto_DoorBaseQuantities:Width"], "displayName": "width" },
+    { "keys": ["BaseQuantities:Height", "Qto_DoorBaseQuantities:Height"], "displayName": "height" },
+    { "keys": ["BaseQuantities:Perimeter", "Qto_DoorBaseQuantities:Perimeter"], "displayName": "perimeter" }
   ],
 
   "Column": [
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:CrossSectionArea", "displayName": "cross section area" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" },
-    { "key": "BaseQuantities:NetVolume", "displayName": "net volume" }
+    { "keys": ["BaseQuantities:Length", "Qto_ColumnBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:CrossSectionArea", "Qto_ColumnBaseQuantities:CrossSectionArea"], "displayName": "cross section area" },
+    { "keys": ["BaseQuantities:OuterSurfaceArea", "Qto_ColumnBaseQuantities:OuterSurfaceArea"], "displayName": "outer surface area" },
+    { "keys": ["BaseQuantities:GrossSurfaceArea", "Qto_ColumnBaseQuantities:GrossSurfaceArea"], "displayName": "gross surface area" },
+    { "keys": ["BaseQuantities:NetSurfaceArea", "Qto_ColumnBaseQuantities:NetSurfaceArea"], "displayName": "net surface area" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_ColumnBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_ColumnBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossWeight", "Qto_ColumnBaseQuantities:GrossWeight"], "displayName": "gross weight" },
+    { "keys": ["BaseQuantities:NetWeight", "Qto_ColumnBaseQuantities:NetWeight"], "displayName": "net weight" }
   ],
 
   "Plate": [
-    { "key": "BaseQuantities:GrossArea", "displayName": "gross area" },
-    { "key": "BaseQuantities:NetArea", "displayName": "net area" },
-    { "key": "BaseQuantities:Thickness", "displayName": "thickness" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+    { "keys": ["BaseQuantities:GrossArea", "Qto_PlateBaseQuantities:GrossArea"], "displayName": "gross area" },
+    { "keys": ["BaseQuantities:NetArea", "Qto_PlateBaseQuantities:NetArea"], "displayName": "net area" },
+    { "keys": ["BaseQuantities:Perimeter", "Qto_PlateBaseQuantities:Perimeter"], "displayName": "perimeter" },
+    { "keys": ["BaseQuantities:Width", "Qto_PlateBaseQuantities:Width"], "displayName": "width" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_PlateBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_PlateBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossWeight", "Qto_PlateBaseQuantities:GrossWeight"], "displayName": "gross weight" },
+    { "keys": ["BaseQuantities:NetWeight", "Qto_PlateBaseQuantities:NetWeight"], "displayName": "net weight" }
   ],
 
   "StairFlight": [
-    { "key": "BaseQuantities:Length", "displayName": "length" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
-  ],
-
-  "Stair": [
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
-  ],
-
-  "Ramp": [
-    { "key": "BaseQuantities:Length", "displayName": "length" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+    { "keys": ["BaseQuantities:Length", "Qto_StairFlightBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_StairFlightBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_StairFlightBaseQuantities:GrossVolume"], "displayName": "gross volume" }
   ],
 
   "RampFlight": [
-    { "key": "BaseQuantities:Length", "displayName": "length" },
-    { "key": "BaseQuantities:Height", "displayName": "height" },
-    { "key": "BaseQuantities:Width", "displayName": "width" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+    { "keys": ["BaseQuantities:Length", "Qto_RampFlightBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:Width", "Qto_RampFlightBaseQuantities:Width"], "displayName": "width" },
+    { "keys": ["BaseQuantities:GrossArea", "Qto_RampFlightBaseQuantities:GrossArea"], "displayName": "gross area" },
+    { "keys": ["BaseQuantities:NetArea", "Qto_RampFlightBaseQuantities:NetArea"], "displayName": "net area" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_RampFlightBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_RampFlightBaseQuantities:NetVolume"], "displayName": "net volume" }
   ],
 
   "Railing": [
-    { "key": "BaseQuantities:Length", "displayName": "length" },
-    { "key": "BaseQuantities:Height", "displayName": "height" }
+    { "keys": ["BaseQuantities:Length", "Qto_RailingBaseQuantities:Length"], "displayName": "length" }
   ],
 
   "Member": [
-    { "key": "BaseQuantities:Length", "displayName": "length" },
-    { "key": "BaseQuantities:CrossSectionArea", "displayName": "cross section area" },
-    { "key": "BaseQuantities:GrossVolume", "displayName": "gross volume" }
+    { "keys": ["BaseQuantities:Length", "Qto_MemberBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:CrossSectionArea", "Qto_MemberBaseQuantities:CrossSectionArea"], "displayName": "cross section area" },
+    { "keys": ["BaseQuantities:OuterSurfaceArea", "Qto_MemberBaseQuantities:OuterSurfaceArea"], "displayName": "outer surface area" },
+    { "keys": ["BaseQuantities:GrossSurfaceArea", "Qto_MemberBaseQuantities:GrossSurfaceArea"], "displayName": "gross surface area" },
+    { "keys": ["BaseQuantities:NetSurfaceArea", "Qto_MemberBaseQuantities:NetSurfaceArea"], "displayName": "net surface area" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_MemberBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_MemberBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossWeight", "Qto_MemberBaseQuantities:GrossWeight"], "displayName": "gross weight" },
+    { "keys": ["BaseQuantities:NetWeight", "Qto_MemberBaseQuantities:NetWeight"], "displayName": "net weight" }
+  ],
+
+  "Pile": [
+    { "keys": ["BaseQuantities:Length", "Qto_PileBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:CrossSectionArea", "Qto_PileBaseQuantities:CrossSectionArea"], "displayName": "cross section area" },
+    { "keys": ["BaseQuantities:OuterSurfaceArea", "Qto_PileBaseQuantities:OuterSurfaceArea"], "displayName": "outer surface area" },
+    { "keys": ["BaseQuantities:GrossSurfaceArea", "Qto_PileBaseQuantities:GrossSurfaceArea"], "displayName": "gross surface area" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_PileBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_PileBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossWeight", "Qto_PileBaseQuantities:GrossWeight"], "displayName": "gross weight" },
+    { "keys": ["BaseQuantities:NetWeight", "Qto_PileBaseQuantities:NetWeight"], "displayName": "net weight" }
   ]
 }
+
+
+
