@@ -101,6 +101,12 @@
     { "keys": ["BaseQuantities:GrossVolume", "Qto_StairFlightBaseQuantities:GrossVolume"], "displayName": "gross volume" }
   ],
 
+    "Stair": [
+    { "keys": ["BaseQuantities:Length", "Qto_StairBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_StairBaseQuantities:NetVolume"], "displayName": "net volume" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_StairBaseQuantities:GrossVolume"], "displayName": "gross volume" }
+  ],
+
   "RampFlight": [
     { "keys": ["BaseQuantities:Length", "Qto_RampFlightBaseQuantities:Length"], "displayName": "length" },
     { "keys": ["BaseQuantities:Width", "Qto_RampFlightBaseQuantities:Width"], "displayName": "width" },
@@ -108,6 +114,16 @@
     { "keys": ["BaseQuantities:NetArea", "Qto_RampFlightBaseQuantities:NetArea"], "displayName": "net area" },
     { "keys": ["BaseQuantities:GrossVolume", "Qto_RampFlightBaseQuantities:GrossVolume"], "displayName": "gross volume" },
     { "keys": ["BaseQuantities:NetVolume", "Qto_RampFlightBaseQuantities:NetVolume"], "displayName": "net volume" }
+  ],
+
+
+  "Ramp": [
+    { "keys": ["BaseQuantities:Length", "Qto_RampBaseQuantities:Length"], "displayName": "length" },
+    { "keys": ["BaseQuantities:Width", "Qto_RampBaseQuantities:Width"], "displayName": "width" },
+    { "keys": ["BaseQuantities:GrossArea", "Qto_RampBaseQuantities:GrossArea"], "displayName": "gross area" },
+    { "keys": ["BaseQuantities:NetArea", "Qto_RampBaseQuantities:NetArea"], "displayName": "net area" },
+    { "keys": ["BaseQuantities:GrossVolume", "Qto_RampBaseQuantities:GrossVolume"], "displayName": "gross volume" },
+    { "keys": ["BaseQuantities:NetVolume", "Qto_RampBaseQuantities:NetVolume"], "displayName": "net volume" }
   ],
 
   "Railing": [
@@ -137,6 +153,7 @@
     { "keys": ["BaseQuantities:NetWeight", "Qto_PileBaseQuantities:NetWeight"], "displayName": "net weight" }
   ]
 }
+
 
 
 
